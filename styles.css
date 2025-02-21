@@ -1,0 +1,200 @@
+
+@font-face {
+    font-family: font;
+    src: url(PTSansNarrow-Bold.ttf);
+}
+body{
+    font-family: font;
+    margin: 0;
+    padding: 0;
+}
+#firstblock{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(160deg,white 62%,rgb(255, 200, 156),rgb(246, 143, 65),rgb(255, 17, 0));
+    border-bottom: 0.8vmax solid rgb(0, 0, 0)
+}
+#sub-block{
+    text-align: left    ;
+    padding-top: 18vh; 
+    margin-right: 10vw ;
+    display: flex;
+    position: absolute;
+}
+#sub-block-name{
+    height:9.7vh;
+    padding-left: 15vw; 
+    font-size: 5.6vmax;
+    letter-spacing:0.2vw ;
+    background: linear-gradient(75deg, rgb(255, 163, 109), rgb(255, 64, 0) 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scaleX(1.4); /* This will make the text appear wider without increasing its height */
+}
+#sub-block-subname{
+    position: absolute;
+    margin-left: 18vw;
+    padding-top: 12vh;
+    font-size: 2.5vmax;
+}
+#sub-block-2{
+    font-size: 2vmax;
+    padding-top: 68vh;
+    text-align: right;
+    margin-left: 28vw;
+    margin-right: 8vw;
+    transform: scaleY(1.29);
+    color: black;
+    position: absolute;
+    display: flex;
+}
+#head{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(90deg,rgb(252, 53, 53),rgb(255, 123, 0),orange);
+    border-bottom:0.1vmax solid rgb(0, 0, 0) ;
+}
+#head-name{
+    transform:scaleX(1.4) ;
+    margin-left: 2vw;
+    font-size: 4vmax;
+    color: white;
+    margin-top: 0;
+    text-shadow: 0 0 0.5vmax black; 
+}
+#btn-block{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2vw;
+    margin-top: 1.2vw;
+    margin-left: 35vw;
+}
+.btn{
+    margin-left: 2vw;
+    height: 4vh;
+    border-radius: 2vmax;
+    font-size: 1.55vmax;
+    border: 0.08vmax solid rgb(21, 21, 21);
+    background-color: gray;
+    color: rgb(29, 29, 29);
+    font-family: font;
+    color: white;
+    box-shadow: inset 0 2px 0.5vmax rgb(41, 41, 41);
+}
+#img{
+    width: 30vw;
+    position: absolute;
+    padding-right: 90vw;
+    height: 20vh;
+    padding-top: 45vh;
+    display: flex;    
+}
+.btn-social{
+    margin-left: 2vw;
+    height: 6vh;
+    border-radius: 2vmax;
+    font-size: 2.2vmax;
+    font-family: font;
+
+}
+#telegram{
+    color: white;
+    background-color: rgb(0, 119, 255);
+    border: 0.1vmax solid rgb(53, 163, 252);
+    box-shadow: inset 2px 2px 0.5vmax blue;
+}
+#blum{
+    color: white;
+    background-color: black;
+    box-shadow: inset 2px 2px 0.5vmax gray;
+}
+#secondblock{
+    width: 100%;
+    height: 80vh;
+    background:linear-gradient(20deg , rgb(255, 111, 0),rgb(222, 146, 88),rgb(255, 42, 0));     
+    border-bottom: 0.8vmax solid rgb(0, 0, 0);
+    text-align: center;
+}
+#secondblock-name{
+    font-size: 4vmax;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    transform: scaleX(1.4);
+    margin-bottom: 5vh;
+}
+#table{
+    background-color: white;
+    border:0.08vmax solid rgb(0, 0, 0) ;
+    font-size: 2vmax;
+    width: 40vw;
+    border-radius: 2vmax;
+    margin-left: 28vw;
+    margin-top: 2vh;
+}
+#inside{
+    padding: 2vmax;
+}
+.roadmap-item{
+    border: 0.08vmax solid black;
+    color: black;
+}
+#thirdblock{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+#thirdblock-name{
+    font-size: 4vmax;
+}
+#warning{
+    font-size: 1vmax;
+    background-color: orangered;
+    border: 0.3vmax solid red;
+    border-radius:3vmax ;
+    padding: 1vmax;
+}
+.span-token{
+    background: linear-gradient(90deg,red,orangered);
+    width: 30vw;
+    border-radius: 2vmax;
+    border: 0.1vmax solid black;
+    margin-left: 2vw;
+}
+#span-inside{
+    padding: 2vmax;
+}
+@media only screen and (max-width: 768px){
+    #sub-block{
+  
+    }
+    #sub-block-2{
+        padding-top: 70vh;
+        
+    }
+    .btn-social{
+        font-size: 1.5vmax;
+        margin-left: 1vw;
+        margin-top: 1vh;
+    }
+    #btn-block{
+        margin-left:4vw;
+
+    }
+    #head-name{
+        font-size: 4.2vmax;
+        margin-left: 6vw;
+        margin-top: 2vh;
+    }
+    #secondblock-name{
+        margin-left: 5vw;
+    }
+    #secondblock{
+        height: 65vh;
+    }
+    #span-inside{
+        font-size: 1vmax;
+    }
+}
+
